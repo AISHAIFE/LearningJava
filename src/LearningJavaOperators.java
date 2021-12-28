@@ -8,6 +8,11 @@ public class LearningJavaOperators {
 		int x = 10;
 		int y = 2;
 		
+		int j = ++x + y;
+		int k = x++ + y;
+		
+		System.out.println("value of j " + j);
+		System.out.println("value of k " + k);
 		System.out.println(x+y);
 		System.out.println(x-y);
 		System.out.println(x*y);
